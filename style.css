@@ -1,24 +1,19 @@
-/* hero */
-.bg-hero-image{
-    background-image: url('https://picsum.photos/1300/500');
-    background-position: center center ;
-}
-/* end */
-
 body{
     background-color: rgb(172, 171, 171);
 }
 
 /* card style */
 p{
-    font-family: 'Lora', serif;
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 h5{
-    font-family: 'Lora', serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
     font-size: 25px;
 }
 
@@ -43,8 +38,10 @@ box-shadow: 10px 10px 2px;
     outline: none;
     color: #000000;
     background: transparent;
-    font-family: 'Lora', serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .button span {
@@ -144,3 +141,21 @@ box-shadow: 10px 10px 2px;
 /* 
 button end */
 
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.navbar-nav{
+    margin-right: 100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
