@@ -24,6 +24,19 @@ box-shadow: 10px 10px 2px;
 
 /* end card style */
 
+/* nav */
+.navbar-nav li a {
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .navbar-nav li a:hover {
+    color: #ffc107; /* Change to the desired hover color */
+    transform: scale(1.1);
+  }
+/* end nav */
+
+
+
 
 /* COOL BUTTON STUFF */
 .button {
