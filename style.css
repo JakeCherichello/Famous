@@ -1,7 +1,6 @@
 body{
-    background-color: rgb(172, 171, 171);
+   background-color: #807e7e;
 }
-
 /* card style */
 p{
     font-family: 'Hedvig Letters Serif', serif;
@@ -165,6 +164,7 @@ button end */
 }
 
 h1{
+    color: black;
     text-align: center;
     font-size: 90px;
     font-family: 'Hedvig Letters Serif', serif;
@@ -172,3 +172,24 @@ font-family: 'Lora', serif;
 font-family: 'Roboto Condensed', sans-serif;
 
 }
+
+
+.top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  
